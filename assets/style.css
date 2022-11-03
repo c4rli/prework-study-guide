@@ -18,6 +18,13 @@ footer {
     height: auto;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: fit-content;
+}
+
 h1,
 h2 {
     text-align: center;
@@ -42,6 +49,7 @@ p {
   }
 
   .card {
+    min-width: 300px;
     padding: 20px;
     width: 50%;
     margin: 40px auto;
